@@ -1,0 +1,64 @@
+
+********* How to USE *********
+
+(1) Press on "Windows Update Installer". System will restart twice.
+(2) Start Server from desktop --> 'Start server' file.
+(3) Start IE8. Tools MENU. WU. Let him check for updates. wait 5 minutes.
+
+-- Not work ?? read here. --
+
+(4) Restart Computer.
+(5) Press on "Windows Update Installer". System will restart twice.
+(6) Start Server from desktop --> 'Start server' file.
+(7) Start IE8. Tools MENU. WU. Let him check again.
+  
+********* Important Notes *********
+
+- If you have Activation problem,
+  Convert to Volume License. Try again.
+
+- Windows Update server requires SHA-256, not supported by older versions (RTM/SP1/SP2).
+  Windows 2000 (even with SP4) also will NOT work.
+  
+- Sometimes wuaueng.dll will not patch successfully. If this happens, go into the x86 folder,
+  and copy wuaueng.dll to C:\Windows\System32 and C:\Windows\system32\dllcache. Click cancel
+  on the warnings. 
+  
+  
+********* Links *********
+  
+** ProxHTTPSProxyMII: Reloaded
+https://www.prxbx.com/forums/showthread.php?tid=2172
+
+** Restore Windows Update for Windows XP / Server 2003 | Page 8 | My Digital Life Forums
+https://forums.mydigitallife.net/threads/restore-windows-update-for-windows-xp-server-2003.82538/page-8#post-1718511
+https://forums.mydigitallife.net/threads/restore-windows-update-for-windows-xp-server-2003.82538/page-14#post-1725371
+
+** Manually install Microsoft Update Activex
+https://msfn.org/board/topic/156929-manually-install-microsoft-update-activex/
+
+** Manual links for activeX dll
+http://catalog.update.microsoft.com/v7/site/ClientControl/en/x86/MuCatalogWebControl.cab
+http://download.windowsupdate.com/v9/microsoftupdate/a/selfupdate/WSUS3/x86/Other/mucltui.cab
+http://download.windowsupdate.com/v9/microsoftupdate/a/selfupdate/WSUS3/x86/Other/mucltui_en.cab
+http://download.windowsupdate.com/v9/microsoftupdate/a/selfupdate/WSUS3/x86/Other/muweb.cab
+http://download.windowsupdate.com/v9/1/microsoftupdate/b/selfupdate/WSUS3/x86/Other/mucltui.cab
+http://download.windowsupdate.com/v9/1/microsoftupdate/b/selfupdate/WSUS3/x86/Other/mucltui_sv.cab
+http://download.windowsupdate.com/v9/1/microsoftupdate/b/selfupdate/WSUS3/x86/Other/muweb.cab
+
+http://catalog.update.microsoft.com/v7/site/ClientControl/en/x64/MuCatalogWebControl.cab
+http://download.windowsupdate.com/v9/microsoftupdate/a/selfupdate/WSUS3/x64/Other/mucltui.cab
+http://download.windowsupdate.com/v9/microsoftupdate/a/selfupdate/WSUS3/x64/Other/mucltui_en.cab
+http://download.windowsupdate.com/v9/microsoftupdate/a/selfupdate/WSUS3/x64/Other/muweb.cab
+http://download.windowsupdate.com/v9/1/microsoftupdate/b/selfupdate/WSUS3/x64/Other/mucltui.cab
+http://download.windowsupdate.com/v9/1/microsoftupdate/b/selfupdate/WSUS3/x64/Other/mucltui_sv.cab
+http://download.windowsupdate.com/v9/1/microsoftupdate/b/selfupdate/WSUS3/x64/Other/muweb.cab
+
+## Credits
+
+@maile3241 (On MSFN)
+@xpandvistafan (On MSFN)
+@Windows7fan 
+@acer-5100
+@Heinoganda
+@ward201185
