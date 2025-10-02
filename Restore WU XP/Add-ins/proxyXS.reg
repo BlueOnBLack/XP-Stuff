@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"ProxyEnable"=dword:00000001
+"ProxyServer"="https=localhost:8079"
+"MigrateProxy"=dword:00000001
+"EnableAutodial"=dword:00000000
+"NoNetAutodial"=dword:00000000

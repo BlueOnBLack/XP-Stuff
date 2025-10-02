@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Test]
+"AllowAnySSL"=dword:00000001
+"WuRedirTestEnable"=dword:00000001
+"WuRedirOverride1"="http://ds.download.windowsupdate.com/v11/2/windowsupdate/redir/v6-win7sp1-wuredir.cab"
+"WuRedirOverride2"="http://download.microsoft.com/v11/2/windowsupdate/redir/v6-win7sp1-wuredir.cab"
+"WuRedirOverride3"="http://fe2.update.microsoft.com/v11/2/windowsupdate/redir/v6-win7sp1-wuredir.cab"

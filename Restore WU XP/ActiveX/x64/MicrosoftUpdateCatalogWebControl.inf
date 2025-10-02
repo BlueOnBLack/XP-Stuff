@@ -1,0 +1,18 @@
+;
+; Inf file for MicrosoftUpdateCatalogWebControl.dll ActiveX control
+;
+
+[version]
+Signature=$Windows NT$
+
+[Add.Code]
+MicrosoftUpdateCatalogWebControl.dll=MicrosoftUpdateCatalogWebControl.dll
+
+[MicrosoftUpdateCatalogWebControl.dll]
+file=thiscab
+RegisterServer=yes
+clsid={5AE58FCF-6F6A-49B2-B064-02492C66E3F4}
+; DestDir is system32
+DestDir=11
+FileVersion=7,4,7057,249
+
